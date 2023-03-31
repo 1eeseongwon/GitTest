@@ -1,0 +1,33 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int korScore, mathScore, engScroe, sciScore, peScore;
+		korScore = 90;
+		mathScore = 90;
+		engScroe = 90;
+		sciScore = 90;
+		peScore = 90;
+		// 네이밍룰: Class 파일은 대문자로 시작
+		// 변수는 소문자로 시작하고, 의미 있는 단어 연결해서 조합
+		System.out.println(korScore);
+		
+		// 형 변환(Casting)
+		// 서로 다른 타입의 변수를 변환시켜 사용함
+		// ex) int <-> double, String <-> int
+		// int < double
+		int iValue = 10;
+		double dValue = iValue + 0.5; // 자동 형 변환
+		System.out.println("iValue 값 : " + iValue);
+		System.out.println("dValue 값 : " + dValue);
+		
+		// 더 큰 데이터 타입을 작은 타입에 담을 때 오류 발생
+		// 어떤 타입으로 바꿀 건지 명시를 해 줘서 강제로 바꿈
+		// 강제 형 변환
+		iValue = (int) dValue; // 소숫점 유실
+		System.out.println("iValue 값 : " + iValue);
+		System.out.println("dValue 값 : " + dValue);
+		
+		String str = "1234" + 12; // 답: 123412
+		System.out.println(str);
+	}
+}

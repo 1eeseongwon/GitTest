@@ -1,0 +1,13 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int korean, math, eng, sci, pe;
+		korean = 90;
+		math = 90;
+		eng = 90;
+		sci = 90;
+		pe = 90;
+		System.out.println(korean);
+		
+	}
+}

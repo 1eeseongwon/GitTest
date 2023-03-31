@@ -1,0 +1,23 @@
+package test01_Variable;
+
+public class Variable { public static void main(String[] args) {
+	byte b;
+	b=5;
+	
+	System.out.println(b);
+	int a;
+	a=10;
+	System.out.println(a);
+	double d;
+	d=20;
+	System.out.println(d);
+	float f;
+	f=302349.13F;
+	System.out.println(f);
+	long l1;
+	l1=29434L;
+	System.out.println(l1);
+	
+}
+
+}

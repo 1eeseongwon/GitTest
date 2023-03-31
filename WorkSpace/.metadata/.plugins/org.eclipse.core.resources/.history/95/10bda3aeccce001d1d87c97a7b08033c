@@ -1,0 +1,15 @@
+package pack09_scanner;
+
+import java.util.Scanner;
+
+public class Ex02_Scanner {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("대기해");
+		String inputData = sc.nextLine();
+		System.out.println("잘했어");
+		int sum = Integer.parseInt(inputData) + 10;
+		System.out.println(sum);
+	}
+
+}

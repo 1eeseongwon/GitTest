@@ -1,0 +1,22 @@
+package pack08_casting;
+
+public class Ex02_Casting {
+	public static void main(String[] args) {
+		// 문자열 = "12" + 34 = 1234
+		// String + int = String
+		// 문자열 + 어떤 값 = 문자열 규칙
+		// 문자열 결합의 법칙 ↑
+		// "1"(String) == 1(int, double) (다르다)
+		
+		String sum = "12" + 34;
+		// 어떤 값을 String으로 바꾸는 것은 간단하다
+		String sum2 = ""+1234+10; 
+		System.out.println(sum2);
+		
+		// String sum, sum2 변수에 문자열로 숫자를 저장해 둠
+		// 두 개의 합을 알고 싶다 "1234" + 1234 = 12341234
+		// 숫자 1234 + 1234 = 2468의 결과를 얻어야 함
+		// 
+	}
+
+}

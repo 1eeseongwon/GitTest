@@ -1,0 +1,14 @@
+
+public class Test04 {
+	public static void main(String[] args) {
+		// int(정수), double(실수)
+		// char(한 글자), String(문자열)
+		// 변수를 선언하는 규칙: 변수타입 네이밍(이름) ;
+		// 메모리를 효율적으로 쓰기 위해 나누어져 있음
+		int iNum;
+		double dNum;
+		char cChr;
+		String sStr;
+	}
+
+}

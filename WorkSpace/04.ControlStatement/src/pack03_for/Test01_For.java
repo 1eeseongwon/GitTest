@@ -28,6 +28,13 @@ public class Test01_For {
 		if (multi<2) {
 			System.out.println("구구단을 종료합니다");
 		} else {
+			System.out.println("출력할 구구단의 숫자를 입력하세요");
+			new Scanner(System.in);
+			String inputData2 = sc.nextLine();
+			int user = Integer.parseInt(inputData2);
+			for(int i=1; i<=9; i++) {
+				System.out.println(user + "x" + i + "=" +user*i);
+			}
 			
 			}
 					

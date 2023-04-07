@@ -7,17 +7,17 @@ public class Game {
 	public static void main(String[] args) {
 		int random = new Random().nextInt(100) + 1;
 		Scanner sc = new Scanner(System.in);
-		int i = 0;
+		int count = 0;
 		while (true) {
 
-			i++;
+			count++;
 
 			System.out.print("1부터 100사이의 정수를 입력하세요 ▶");
 			int userNum = Integer.parseInt(sc.nextLine());
 
 			if (random == userNum) {
 				System.out.println("숫자를 맞혔습니다!");
-				System.out.println("시도 횟수는 " + i + "번입니다");
+				System.out.println("시도 횟수는 " + count + "번입니다");
 				break;
 
 			} else if (random < userNum) {

@@ -5,31 +5,28 @@ import java.util.Scanner;
 
 public class Game {
 	public static void main(String[] args) {
-		int random=new Random().nextInt(100)+1;
-		Scanner sc = new Scanner(System.in); 
-		
-		
-		while(true) {
-			System.out.println("1부터 100 사이의 정수를 입력하세요");
-			int user = Integer.parseInt(sc.nextLine());
-			int count = 0;
-			count++;
-			if (random>user) {
-				System.out.println("더 큰 수를 입력하세요");
-				
-			} else if (random<user) {
-				System.out.println("더 작은 수를 입력하세요");
-				
-			} else if (random==user) {
-				
-				System.out.println("정답을 맞혔습니다");
-				// System.out.println("시도 횟수는 :" +count+ "번 입니다.");
+		int random = new Random().nextInt(100) + 1;
+		Scanner sc = new Scanner(System.in);
+		int i = 0;
+		while (true) {
+
+			i++;
+
+			System.out.print("1부터 100사이의 정수를 입력하세요 ▶");
+			int userNum = Integer.parseInt(sc.nextLine());
+
+			if (random == userNum) {
+				System.out.println("숫자를 맞혔습니다!");
+				System.out.println("시도 횟수는 " + i + "번입니다");
 				break;
+
+			} else if (random < userNum) {
+				System.out.println("더 작은 수를 입력하세요");
+			} else {
+				System.out.println("더 큰 수를 입력하세요");
 			}
-		
-				
-			
+
 		}
-	} //main
+	} //main 
 
 }

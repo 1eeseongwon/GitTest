@@ -7,16 +7,20 @@ public class Test01_ArraySum {
 		//sArr 내부에 있는 문자열을 숫자로 바꿔서 누적합을 구하고 출력해 보기
 		
 		String[] sArr = new String[10];
-		sArr[0] = "1";
-		sArr[1] = "2";
-		sArr[2] = "3";
-		sArr[3] = "4";
-		sArr[4] = "5";
-		sArr[5] = "6";
-		sArr[6] = "7";
-		sArr[7] = "8";
-		sArr[8] = "9";
-		sArr[9] = "10";
+//		sArr[0] = "1";
+//		sArr[1] = "2";
+//		sArr[2] = "3";
+//		sArr[3] = "4";
+//		sArr[4] = "5";
+//		sArr[5] = "6";
+//		sArr[6] = "7";
+//		sArr[7] = "8";
+//		sArr[8] = "9";
+//		sArr[9] = "10";
+		
+		for(int i = 0; i < 10; i++) {
+			sArr[i] = i+1+"";
+		}
 		
 		int sum = 0;
 		for (int i = 0; i<10; i++) {

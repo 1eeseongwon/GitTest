@@ -12,6 +12,7 @@ public class Test01_Game {
 		
 		int [] gameArray = new int[diff];
 		int hidInd = new Random().nextInt(diff);
+		gameArray[hidInd] = 1;
 		
 		System.out.println("난이도는 "+diff+"입니다.");
 		System.out.println("게임을 시작합니다.");

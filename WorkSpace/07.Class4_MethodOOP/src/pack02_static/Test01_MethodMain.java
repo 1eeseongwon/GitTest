@@ -21,6 +21,7 @@ public class Test01_MethodMain {
     }
 	
 	
+	//리턴타입이 잘 구분이 안 될 때 > void
 	
 	
 	
